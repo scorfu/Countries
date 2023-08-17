@@ -18,8 +18,6 @@ const HomePage = () => {
 
     const handleSearchChange = (event) => {
         setSearchQuery(event.target.value);
-        console.log(searchQuery);
-        console.log(filteredCountries);
     };
 
     return <>
