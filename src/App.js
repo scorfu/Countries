@@ -6,7 +6,7 @@ import Country from './Pages/Country';
 function App() {
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/Countries',
       element: <HomePage/>
     },
     {
