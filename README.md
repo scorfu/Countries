@@ -16,6 +16,6 @@ You may also see any lint errors in the console.
 
 ### `About the app`
 
-[ - ] Simple React app, fetching all countries of the world displaying them in 'cards'.
-[ - ] On click on 'More Info' a new page will be open bringing more information about the respective country.
-[ - ] On keypress search functionality.
+- [ ] Simple React app, fetching all countries of the world displaying them in 'cards'.
+- [ ] On click on 'More Info' a new page will be open bringing more information about the respective country.
+- [ ] On keypress search functionality.
