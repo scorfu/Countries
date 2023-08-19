@@ -20,7 +20,7 @@ const SingleCountry = ({ country }) => {
 
     return <>
         <div className="bg-secondary-subtle my-2 px-5 py-2">
-            <div className="fw-semibold">{country.name.common}, also known as '{Object.values(country.name.nativeName)[0].common}' by its inhabitants, is a country found in {country.region} with a population of {new Intl.NumberFormat('en-IN').format(country.population)} people. Driving is done on the {country.car.side}.</div>
+            <div className="fw-semibold">{country.name.common}, also known as '{Object.values(country.name.nativeName)[0].common}' by its inhabitants, is a country found in {country.region} with a population of {new Intl.NumberFormat('en-EN').format(country.population)} people. Driving is done on the {country.car.side}.</div>
             <hr></hr>
             <div><strong>Location:</strong> {formatArray(country.continents)} in the subregion {country.subregion}</div>
             <p>This country <strong>{country.independent ? 'is an independent one' : 'is not independent'}</strong> and <strong>{country.unMember ? "is part of UN 🇺🇳" : "is not (⛔️) an UN member"}</strong>. </p>
